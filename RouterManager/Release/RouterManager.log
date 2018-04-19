@@ -1,0 +1,64 @@
+﻿生成启动时间为 2016/11/25 11:57:53。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\RouterManager\RouterManager.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\RouterManager.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\RouterManager.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\RouterManager.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp BroadBand.cpp Messager.cpp PluginMgr.cpp Router.cpp RouterManager.cpp RouterManagerDlg.cpp RouterXml.cpp TabPage1.cpp TabPage2.cpp TabPage3.cpp TabPage4.cpp TabPage5.cpp User.cpp explorer1.cpp
+         Application.cpp
+         BroadBand.cpp
+         Messager.cpp
+     1>Messager.cpp(62): warning C4018: “>”: 有符号/无符号不匹配
+     1>Messager.cpp(102): warning C4018: “>”: 有符号/无符号不匹配
+         PluginMgr.cpp
+         Router.cpp
+         RouterManager.cpp
+         RouterManagerDlg.cpp
+         RouterXml.cpp
+         TabPage1.cpp
+         TabPage2.cpp
+         TabPage3.cpp
+         TabPage4.cpp
+         TabPage5.cpp
+         User.cpp
+         explorer1.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\RouterManager.res" RouterManager.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\RouterManager.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\RouterManager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\RouterManager.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\RouterManager.lib" /MACHINE:X86 Release\RouterManager.res
+         Release\Application.obj
+         Release\BroadBand.obj
+         Release\explorer1.obj
+         Release\Messager.obj
+         Release\PluginMgr.obj
+         Release\Router.obj
+         Release\RouterManager.obj
+         Release\RouterManagerDlg.obj
+         Release\RouterXml.obj
+         Release\stdafx.obj
+         Release\TabPage1.obj
+         Release\TabPage2.obj
+         Release\TabPage3.obj
+         Release\TabPage4.obj
+         Release\TabPage5.obj
+         Release\User.obj
+            正在创建库 H:\Programming\vs2010\cpp\MFC\RouterManager\Release\RouterManager.lib 和对象 H:\Programming\vs2010\cpp\MFC\RouterManager\Release\RouterManager.exp
+     1>Application.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall CWinConfig::CWinConfig(wchar_t const *)" (??0CWinConfig@@QAE@PB_W@Z)
+     1>Application.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall CWinConfig::~CWinConfig(void)" (??1CWinConfig@@QAE@XZ)
+     1>Application.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall CWinConfig::CWinConfig(void)" (??0CWinConfig@@QAE@XZ)
+     1>Router.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall CHttpWebConnection::writeRequestBody(class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > >)" (?writeRequestBody@CHttpWebConnection@@QAEXV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z)
+     1>Router.obj : error LNK2001: 无法解析的外部符号 "public: static class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > __cdecl Common::GetWindownTextById(int,class CWnd *)" (?GetWindownTextById@Common@@SA?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@HPAVCWnd@@@Z)
+     1>RouterManagerDlg.obj : error LNK2001: 无法解析的外部符号 "public: class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > __thiscall CWinConfig::ReadFromConfig(class CEdit *)" (?ReadFromConfig@CWinConfig@@QAE?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@PAVCEdit@@@Z)
+     1>RouterManagerDlg.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall CWinConfig::ReadFromConfig(class CButton *)" (?ReadFromConfig@CWinConfig@@QAEHPAVCButton@@@Z)
+     1>RouterManagerDlg.obj : error LNK2001: 无法解析的外部符号 "public: class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > __thiscall CWinConfig::ReadFromConfig(class CIPAddressCtrl *)" (?ReadFromConfig@CWinConfig@@QAE?AV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@PAVCIPAddressCtrl@@@Z)
+     1>RouterManagerDlg.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall CIniFile::writeBool(wchar_t const *,int)" (?writeBool@CIniFile@@QAEHPB_WH@Z)
+     1>TabPage3.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall CWinConfig::WriteToConfig(class CEdit *)" (?WriteToConfig@CWinConfig@@QAEHPAVCEdit@@@Z)
+     1>TabPage3.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall CWinConfig::WriteToConfig(class CButton *)" (?WriteToConfig@CWinConfig@@QAEHPAVCButton@@@Z)
+     1>TabPage3.obj : error LNK2001: 无法解析的外部符号 "public: int __thiscall CWinConfig::WriteToConfig(class CIPAddressCtrl *)" (?WriteToConfig@CWinConfig@@QAEHPAVCIPAddressCtrl@@@Z)
+     1>H:\Programming\vs2010\cpp\MFC\RouterManager\Release\RouterManager.exe : fatal error LNK1120: 12 个无法解析的外部命令
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\RouterManager\RouterManager.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:42.94

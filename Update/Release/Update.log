@@ -1,0 +1,32 @@
+﻿生成启动时间为 2016/11/25 23:14:44。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\Update\Update.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Update.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Update.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Update.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Update.cpp UpdateDlg.cpp
+         Update.cpp
+         UpdateDlg.cpp
+     1>UpdateDlg.cpp(157): warning C4129: “C”: 不可识别的字符转义序列
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Update.res" Update.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Update.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.lib" /MACHINE:X86 Release\Update.res
+         Release\stdafx.obj
+         Release\Update.obj
+         Release\UpdateDlg.obj
+            正在创建库 H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.lib 和对象 H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.exp
+         正在生成代码
+         已完成代码的生成
+         Update.vcxproj -> H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Update.exe;#1" /manifest Release\Update.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Update.unsuccessfulbuild”。
+         正在对“Release\Update.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\Update\Update.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:58.49

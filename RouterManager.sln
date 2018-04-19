@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RouterManager", "RouterManager\RouterManager.vcxproj", "{10D65411-C59E-46B4-B8CE-776FD8AA1CBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Common\Common.vcxproj", "{BF4AD977-31F2-435B-A9C6-099B9FB0EFFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Update", "Update\Update.vcxproj", "{DCD7342B-67CC-4D36-A586-535FB7E6E8F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debuger", "Debuger\Debuger.vcxproj", "{7D2B80CF-D1FB-4C8D-AB1C-3899507B83BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RXmlEditor", "RXmlEditor\RXmlEditor.vcxproj", "{B18008AE-49EC-421D-8F47-11984AA8EC47}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ty2.02", "ty2.02\ty2.02.vcxproj", "{76B4B8F6-E05C-4537-958F-730EA7F6DF7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RouterPropertiesEditor", "RouterPropertiesEditor\RouterPropertiesEditor.vcxproj", "{B8759585-CD65-4F53-8A3F-51462728439A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D65411-C59E-46B4-B8CE-776FD8AA1CBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10D65411-C59E-46B4-B8CE-776FD8AA1CBE}.Release|Win32.ActiveCfg = Release|Win32
+		{10D65411-C59E-46B4-B8CE-776FD8AA1CBE}.Release|Win32.Build.0 = Release|Win32
+		{BF4AD977-31F2-435B-A9C6-099B9FB0EFFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF4AD977-31F2-435B-A9C6-099B9FB0EFFB}.Release|Win32.ActiveCfg = Release|Win32
+		{BF4AD977-31F2-435B-A9C6-099B9FB0EFFB}.Release|Win32.Build.0 = Release|Win32
+		{DCD7342B-67CC-4D36-A586-535FB7E6E8F7}.Debug|Win32.ActiveCfg = Release|Win32
+		{DCD7342B-67CC-4D36-A586-535FB7E6E8F7}.Release|Win32.ActiveCfg = Release|Win32
+		{DCD7342B-67CC-4D36-A586-535FB7E6E8F7}.Release|Win32.Build.0 = Release|Win32
+		{7D2B80CF-D1FB-4C8D-AB1C-3899507B83BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D2B80CF-D1FB-4C8D-AB1C-3899507B83BF}.Debug|Win32.Build.0 = Debug|Win32
+		{7D2B80CF-D1FB-4C8D-AB1C-3899507B83BF}.Release|Win32.ActiveCfg = Release|Win32
+		{7D2B80CF-D1FB-4C8D-AB1C-3899507B83BF}.Release|Win32.Build.0 = Release|Win32
+		{B18008AE-49EC-421D-8F47-11984AA8EC47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B18008AE-49EC-421D-8F47-11984AA8EC47}.Release|Win32.ActiveCfg = Release|Win32
+		{B18008AE-49EC-421D-8F47-11984AA8EC47}.Release|Win32.Build.0 = Release|Win32
+		{76B4B8F6-E05C-4537-958F-730EA7F6DF7B}.Debug|Win32.ActiveCfg = Release|Win32
+		{76B4B8F6-E05C-4537-958F-730EA7F6DF7B}.Release|Win32.ActiveCfg = Release|Win32
+		{76B4B8F6-E05C-4537-958F-730EA7F6DF7B}.Release|Win32.Build.0 = Release|Win32
+		{B8759585-CD65-4F53-8A3F-51462728439A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8759585-CD65-4F53-8A3F-51462728439A}.Release|Win32.ActiveCfg = Release|Win32
+		{B8759585-CD65-4F53-8A3F-51462728439A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

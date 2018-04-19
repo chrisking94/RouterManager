@@ -1,0 +1,90 @@
+﻿生成启动时间为 2016/11/27 18:23:17。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\RouterManager\RouterManager.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\RouterManager.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RouterManager.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Common\HtmlDocument.cpp ..\Common\HtmlLabel.cpp Application.cpp BroadBand.cpp Messager.cpp PluginMgr.cpp PropertyBin.cpp Router.cpp RouterManagerDlg.cpp RouterXml.cpp TabPage1.cpp TabPage2.cpp TabPage3.cpp TabPage5.cpp User.cpp
+         Router.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(912): error C2086: “Router::DHCPClientList Router::g_DHCPClientList”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(143) : 参见“Router::g_DHCPClientList”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(914): error C2086: “CString *Router::s_pszCurrentForm”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(115) : 参见“Router::s_pszCurrentForm”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(916): error C2086: “CRouterXml Router::g_RouterXml”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(149) : 参见“Router::g_RouterXml”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(918): error C2086: “Router::RouterTaskDef Router::g_TrafficTask”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(148) : 参见“Router::g_TrafficTask”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(920): error C2086: “Router::RouterTaskDef Router::g_WanTask”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(147) : 参见“Router::g_WanTask”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(922): error C2374: “Router::g_szDefaultUsername”: 重定义；多次初始化
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(146) : 参见“Router::g_szDefaultUsername”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(924): error C2086: “Router::ConfigDef Router::g_MyConfig”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(145) : 参见“Router::g_MyConfig”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(926): error C2086: “CNetworkAdapter::AdapterInfoDef Router::g_MyNetAdpInf”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(144) : 参见“Router::g_MyNetAdpInf”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(928): error C2086: “CThread *Router::pTh_QueryStat”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(114) : 参见“Router::pTh_QueryStat”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(930): error C2086: “Router::TrafficStatusList Router::g_TrafficStatList”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(142) : 参见“Router::g_TrafficStatList”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(932): error C2086: “Router::RouterStatDef Router::g_MyStat”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(141) : 参见“Router::g_MyStat”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.cpp(934): error C2086: “Router::RouterInfoDef Router::s_MyInfo”: 重定义
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(113) : 参见“Router::s_MyInfo”的声明
+         HtmlLabel.cpp
+         HtmlDocument.cpp
+         正在生成代码...
+     1>h:\programming\vs2010\cpp\mfc\routermanager\common\htmldocument.cpp(49): error C4716: “CHtmlDocument::Parse”: 必须返回一个值
+         正在编译...
+         User.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         TabPage5.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         TabPage3.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         TabPage2.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         TabPage1.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         RouterXml.cpp
+         RouterManagerDlg.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         PluginMgr.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         Messager.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\messager.cpp(62): warning C4018: “>”: 有符号/无符号不匹配
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\messager.cpp(102): warning C4018: “>”: 有符号/无符号不匹配
+         BroadBand.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         Application.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\router.h(72): warning C4091: “typedef ”: 没有声明变量时忽略“Router::RouterInfoDef”的左侧
+         正在生成代码...
+         正在编译...
+         PropertyBin.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(44): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(44): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(44): error C2238: 意外的标记位于“;”之前
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(86): error C2146: 语法错误: 缺少“;”(在标识符“PPPoE”的前面)
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(86): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(126): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(126): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(126): error C2238: 意外的标记位于“;”之前
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(133): error C2653: “CHttpWebConnection”: 不是类或命名空间名称
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(133): error C2146: 语法错误: 缺少“;”(在标识符“requestMethod”的前面)
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(133): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(133): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(138): error C2143: 语法错误 : 缺少“;”(在“<”的前面)
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(138): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(138): error C2238: 意外的标记位于“;”之前
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(139): error C2653: “CStringEx”: 不是类或命名空间名称
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(143): error C2146: 语法错误: 缺少“;”(在标识符“Auth”的前面)
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(143): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>h:\programming\vs2010\cpp\mfc\routermanager\routermanager\propertybin.h(143): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+         正在生成代码...
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\RouterManager\RouterManager.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:21.87

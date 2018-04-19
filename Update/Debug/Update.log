@@ -1,0 +1,39 @@
+﻿生成启动时间为 2015-08-24 14:18:43。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\Update\Update.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Update.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Update.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.lib" /MACHINE:X86 Debug\Update.res
+         Debug\Update.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\Update.obj
+         Debug\UpdateDlg.obj
+            正在创建库 H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.lib 和对象 H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.exp
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Update.exe.embed.manifest" /manifest Debug\Update.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Update.exe.embed.manifest.res" Debug\Update_manifest.rc 
+       LinkEmbedManifest:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Update.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.lib" /MACHINE:X86 Debug\Update.res
+         Debug\Update.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\Update.obj
+         Debug\UpdateDlg.obj
+            正在创建库 H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.lib 和对象 H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.exp
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         Update.vcxproj -> H:\Programming\vs2010\cpp\MFC\RouterManager\Debug\Update.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Update.unsuccessfulbuild”。
+         正在对“Debug\Update.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\Update\Update.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.15

@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016/11/25 23:15:43。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\ty2.02\ty2.02.vcxproj”在节点 3 上(build 个目标)。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Release\ty2.02.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ty2.02.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ty2.02.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ty2.02.cpp
+         ty2.02.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\ty2.02.res" ty2.02.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Release\Plugins\ty2.02.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\ty2.02.def" /MANIFEST /ManifestFile:"Release\ty2.02.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Plugins\ty2.02.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Release\Plugins\ty2.02.lib" /MACHINE:X86 /DLL Release\ty2.02.res
+         Release\stdafx.obj
+         Release\ty2.02.obj
+            正在创建库 ..\Release\Plugins\ty2.02.lib 和对象 ..\Release\Plugins\ty2.02.exp
+         正在生成代码
+         已完成代码的生成
+         ty2.02.vcxproj -> H:\Programming\vs2010\cpp\MFC\RouterManager\ty2.02\..\Release\Plugins\ty2.02.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Release\Plugins\ty2.02.dll;#2" /manifest Release\ty2.02.dll.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\ty2.02.unsuccessfulbuild”。
+         正在对“Release\ty2.02.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\ty2.02\ty2.02.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:43.15

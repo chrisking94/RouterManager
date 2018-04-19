@@ -1,0 +1,29 @@
+﻿生成启动时间为 2015-09-06 17:24:10。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\Debuger\Debuger.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Debuger.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Debuger.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DebugerDlg.cpp
+         DebugerDlg.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Debuger.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.lib" /MACHINE:X86 Release\Debuger.res
+         Release\Debuger.obj
+         Release\DebugerDlg.obj
+         Release\stdafx.obj
+            正在创建库 H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.lib 和对象 H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.exp
+         正在生成代码
+         已完成代码的生成
+         Debuger.vcxproj -> H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"H:\Programming\vs2010\cpp\MFC\RouterManager\Release\Debuger.exe;#1" /manifest Release\Debuger.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Debuger.unsuccessfulbuild”。
+         正在对“Release\Debuger.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\Debuger\Debuger.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:59.71

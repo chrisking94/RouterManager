@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{10D65411-C59E-46B4-B8CE-776FD8AA1CBE}</ProjectGuid>
+    <RootNamespace>RouterManager</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>H:\Programming\vs2010\cpp\MFC\RouterManager\Common;$(IncludePath)</IncludePath>
+    <LibraryPath>H:\Programming\vs2010\cpp\MFC\RouterManager\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\Common;$(IncludePath)</IncludePath>
+    <LibraryPath>..\Release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\FCU主程序图标.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\ico\Connecting.ico" />
+    <None Include="res\ico\CrystSoft.ico" />
+    <None Include="res\ico\CrystSoft256.ico" />
+    <None Include="res\ico\CrystSoft32.ico" />
+    <None Include="res\ico\Error.ico" />
+    <None Include="res\ico\icon3.ico" />
+    <None Include="res\ico\icon4.ico" />
+    <None Include="res\ico\OK.ico" />
+    <None Include="res\ico\QQ16x16.ico" />
+    <None Include="res\ico\商标.ico" />
+    <None Include="res\png\check_alt.png" />
+    <None Include="res\png\CrystSoft图标.bmp" />
+    <None Include="res\png\CrystSoft图标.png" />
+    <None Include="res\png\loop_alt4_24_B.png" />
+    <None Include="res\png\my.bmp" />
+    <None Include="res\png\x_alt.png" />
+    <None Include="res\RouterManager.ico" />
+    <None Include="res\RouterManager.rc2" />
+    <None Include="res\RtrMgr.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\HtmlDocument.h" />
+    <ClInclude Include="..\Common\HtmlLabel.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="BroadBand.h" />
+    <ClInclude Include="explorer1.h" />
+    <ClInclude Include="Messager.h" />
+    <ClInclude Include="PluginMgr.h" />
+    <ClInclude Include="PropertyBin.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Router.h" />
+    <ClInclude Include="RouterManager.h" />
+    <ClInclude Include="RouterManagerDlg.h" />
+    <ClInclude Include="RouterXml.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TabPage1.h" />
+    <ClInclude Include="TabPage2.h" />
+    <ClInclude Include="TabPage3.h" />
+    <ClInclude Include="TabPage4.h" />
+    <ClInclude Include="TabPage5.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\HtmlDocument.cpp" />
+    <ClCompile Include="..\Common\HtmlLabel.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="BroadBand.cpp" />
+    <ClCompile Include="explorer1.cpp" />
+    <ClCompile Include="Messager.cpp" />
+    <ClCompile Include="PluginMgr.cpp" />
+    <ClCompile Include="PropertyBin.cpp" />
+    <ClCompile Include="Router.cpp" />
+    <ClCompile Include="RouterManager.cpp" />
+    <ClCompile Include="RouterManagerDlg.cpp" />
+    <ClCompile Include="RouterXml.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TabPage1.cpp" />
+    <ClCompile Include="TabPage2.cpp" />
+    <ClCompile Include="TabPage3.cpp" />
+    <ClCompile Include="TabPage4.cpp" />
+    <ClCompile Include="TabPage5.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RouterManager.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="RouterManager.rc" _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CExplorer1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

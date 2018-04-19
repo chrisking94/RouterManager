@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/11/25 23:23:46。
+     1>项目“H:\Programming\vs2010\cpp\MFC\RouterManager\RXmlEditor\RXmlEditor.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\RXmlEditor.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\RXmlEditor.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RXmlEditorDlg.cpp
+         RXmlEditorDlg.cpp
+     1>h:\programming\vs2010\cpp\mfc\routermanager\rxmleditor\rxmleditordlg.cpp(114): error C2440: “<function-style-cast>”: 无法从“ATL::CStringT<BaseType,StringTraits>”转换为“CConfig”
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 无构造函数可以接受源类型，或构造函数重载决策不明确
+     1>h:\programming\vs2010\cpp\mfc\routermanager\rxmleditor\rxmleditordlg.cpp(254): error C2039: “ReadAuthorizeAttibute”: 不是“CRouterXml”的成员
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\routerxml.h(6) : 参见“CRouterXml”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\rxmleditor\rxmleditordlg.cpp(258): error C2039: “ReadPPPoEAttribute”: 不是“CRouterXml”的成员
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\routerxml.h(6) : 参见“CRouterXml”的声明
+     1>h:\programming\vs2010\cpp\mfc\routermanager\rxmleditor\rxmleditordlg.cpp(263): error C2039: “ReadTrafficAttribute”: 不是“CRouterXml”的成员
+                 h:\programming\vs2010\cpp\mfc\routermanager\routermanager\routerxml.h(6) : 参见“CRouterXml”的声明
+     1>已完成生成项目“H:\Programming\vs2010\cpp\MFC\RouterManager\RXmlEditor\RXmlEditor.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.23
